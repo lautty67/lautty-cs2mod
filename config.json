@@ -1,0 +1,175 @@
+{
+    "enabled": true,
+    "esp": {
+        "armor": true,
+        "box": true,
+        "colors": {
+            "box_enemy": [
+                1.0,
+                0.0,
+                0.0,
+                0.5
+            ],
+            "box_team": [
+                0.0,
+                1.0,
+                0.28999999165534973,
+                0.5
+            ],
+            "flags": {
+                "blinded_enemy": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    0.800000011920929
+                ],
+                "blinded_team": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    0.5
+                ],
+                "defusing_enemy": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    0.800000011920929
+                ],
+                "defusing_team": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    0.5
+                ],
+                "reloading_enemy": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    0.800000011920929
+                ],
+                "reloading_team": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    0.5
+                ],
+                "scoped_enemy": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    0.800000011920929
+                ],
+                "scoped_team": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    0.5
+                ]
+            },
+            "skeleton_enemy": [
+                1.0,
+                0.0,
+                0.0,
+                0.5
+            ],
+            "skeleton_team": [
+                0.0,
+                1.0,
+                0.0,
+                0.5
+            ],
+            "tracer_enemy": [
+                1.0,
+                0.0,
+                0.0,
+                0.5
+            ],
+            "tracer_team": [
+                0.0,
+                1.0,
+                0.0,
+                0.5
+            ],
+            "tracker_enemy": [
+                1.0,
+                1.0,
+                1.0,
+                0.30000001192092896
+            ],
+            "tracker_team": [
+                1.0,
+                1.0,
+                1.0,
+                0.30000001192092896
+            ]
+        },
+        "flags": {
+            "ammo": false,
+            "defusing": false,
+            "flashed": false,
+            "money": false,
+            "name": false,
+            "ping": false,
+            "reloading": false,
+            "scoped": true,
+            "weapon": false
+        },
+        "head_tracker": true,
+        "health": true,
+        "health_number": true,
+        "skeleton": true,
+        "spotted": false,
+        "team": false,
+        "tracers": true
+    },
+    "utils": {
+        "free_cpu": false,
+        "streamproof": false,
+        "vsync": false,
+        "watermark": false
+    },
+    "world": {
+        "bomb": {
+            "location": true,
+            "timer": true
+        },
+        "crosshair": {
+            "enabled": false
+        },
+        "radar": {
+            "enabled": true,
+            "no_rotate": false,
+            "pos": [
+                10.0,
+                10.0
+            ],
+            "range": 2000.0,
+            "size": [
+                200.0,
+                200.0
+            ]
+        },
+        "spectators": {
+            "detailed": false,
+            "enabled": false,
+            "pos": [
+                10.0,
+                100.0
+            ],
+            "self_only": false
+        },
+        "velocity": {
+            "enabled": false,
+            "pos": [
+                10.0,
+                400.0
+            ],
+            "sample_length": 5.0,
+            "sample_rate": 35,
+            "size": [
+                400.0,
+                100.0
+            ]
+        }
+    }
+}
